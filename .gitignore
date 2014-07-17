@@ -1,0 +1,5 @@
+.sencha/
+
+resources/sass/.sass-cache/
+
+build/
