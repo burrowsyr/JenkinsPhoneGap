@@ -23,7 +23,7 @@ Ext.define('JenkinsPhoneGap.view.Main', {
                 xtype: 'button',
                 text: 'Google.co.uk',
                 action: 'openUrl',
-                link: 'http://www.google.co.uk'
+                link: 'http://google.com'
             }
         ]
     }

@@ -13,6 +13,7 @@ Ext.define('JenkinsPhoneGap.controller.Main', {
     },
 
     onOpenUrlTap: function (button) {
-        window.open(button.link, '_blank');
+        var url = encodeURI(button.config.link);
+        window.open(url, '_blank', 'location=no');
     }
 });

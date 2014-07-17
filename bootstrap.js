@@ -638,6 +638,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "JenkinsPhoneGap.controller.Main": [],
   "JenkinsPhoneGap.view.Main": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1357,6 +1358,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "JenkinsPhoneGap.controller.Main": [],
   "JenkinsPhoneGap.view.Main": [
     "widget.main"
   ]
