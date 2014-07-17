@@ -354,7 +354,7 @@ Ext.define('Ext.app.Application', {
          * @cfg {String} name The name of the Application. This should be a single word without spaces or periods
          * because it is used as the Application's global namespace. All classes in your application should be
          * namespaced under the Application's name - for example if your application name is 'MyApp', your classes
-         * should be named 'MyApp.model.User', 'MyApp.controller.Users', 'MyApp.view.Main' etc
+         * should be named 'MyApp.model.User', 'MyApp.controller.Users', 'MyApp.view.Main.js' etc
          * @accessor
          */
         name: null,
@@ -468,7 +468,7 @@ Ext.define('Ext.app.Application', {
         if (config.autoCreateViewport) {
             Ext.Logger.deprecate(
                 '[Ext.app.Application] autoCreateViewport has been deprecated in Sencha Touch 2. Please implement a ' +
-                'launch function on your Application instead and use Ext.create("MyApp.view.Main") to create your initial UI.'
+                'launch function on your Application instead and use Ext.create("MyApp.view.Main.js") to create your initial UI.'
             );
         }
         // </deprecated>

@@ -122,11 +122,11 @@ Ext.define('Ext.app.Profile', {
          * that each item here will be prepended with the Profile namespace when loaded. Example usage:
          *
          *     views: [
-         *         'Main',
+         *         'Main.js',
          *         'MyApp.view.Login'
          *     ]
          *
-         * This will load *MyApp.view.tablet.Main* and *MyApp.view.Login*.
+         * This will load *MyApp.view.tablet.Main.js* and *MyApp.view.Login*.
          * @accessor
          */
         views: [],
@@ -180,7 +180,7 @@ Ext.define('Ext.app.Profile', {
      * usage:
      *
      *     launch: function() {
-     *         Ext.create('MyApp.view.tablet.Main');
+     *         Ext.create('MyApp.view.tablet.Main.js');
      *     }
      */
     launch: Ext.emptyFn,
