@@ -61,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0C0D2519781F5700B57CD8 /* Burrows_Generic_For_All_Under_Enterprise_Program.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Burrows_Generic_For_All_Under_Enterprise_Program.mobileprovision; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* JenkinsPhoneGap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsPhoneGap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +166,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1D0C0D2519781F5700B57CD8 /* Burrows_Generic_For_All_Under_Enterprise_Program.mobileprovision */,
 				1DC6A31C19780584008A3FE4 /* www */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF21871DA7A0020F90C /* merges */,
